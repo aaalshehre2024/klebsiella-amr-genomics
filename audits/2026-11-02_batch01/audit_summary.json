@@ -1,0 +1,23 @@
+{
+  "audit_date": "2026-11-02",
+  "packages_received": 19,
+  "readable_archives": 18,
+  "unreadable_archives": 1,
+  "packages_with_selected_main": 17,
+  "packages_with_selected_hamr": 16,
+  "main_package_records": 11464,
+  "distinct_versioned_assembly_accessions": 11306,
+  "repeated_accessions": 158,
+  "duplicate_main_observations": 158,
+  "raw_profile_variation_accessions": 2,
+  "substantive_main_profile_conflicts": 0,
+  "main_records_after_reconciliation": 11306,
+  "gca_gcf_link_candidates": 4,
+  "log_only_observations": 503,
+  "hamr_package_rows": 188811,
+  "hamr_exact_distinct_rows": 184366,
+  "hamr_distinct_versioned_accessions": 10877,
+  "excluded_extra_main_members": 1,
+  "scope": "Current 19 uploads only; no earlier packages silently appended; no final biological cohort established",
+  "status": "PROVISIONAL_AUDIT_NOT_PUBLICATION_READY"
+}
