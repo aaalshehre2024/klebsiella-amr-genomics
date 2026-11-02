@@ -1,0 +1,11 @@
+{
+  "tested_commit": "698485562dbef22d25ea444e0f8486b0773e1e29",
+  "workflow": "Audit software tests",
+  "run_id": 41512832014,
+  "run_url": "https://github.com/aaalshehre2024/klebsiella-amr-genomics/actions/runs/41512832014",
+  "jobs": [
+    {"python_series": "3.14", "job_id": 125508757995, "status": "completed", "conclusion": "success"},
+    {"python_series": "3.13", "job_id": 125508759273, "status": "completed", "conclusion": "success"}
+  ],
+  "verification": "Both hosted test jobs succeeded. Synthetic software tests do not approve cohort eligibility, taxonomic exclusions or biological claims."
+}
