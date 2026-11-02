@@ -1,0 +1,29 @@
+package_id,declared_identifier,identifier_basis,source_metadata_filename,source_metadata_sha256,metadata_export_date,assembly_download_date,analysis_date,pdt_assembly_crosswalk,verified_pds_version,newick_filename,newick_sha256,primary_or_extended_or_sensitivity,selection_rationale,decision_owner,decision_date,status
+P01,PDS000235927.11,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P02,PDS000270847.3,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P03,PDS000270847.3,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P04,PDG000000012.2539,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P05,PDG000000012.2539,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P06,PDG000000012.2539,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P07,PDG000000012.2539,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P08,PDS000015678.325,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P09,PDS000015678.325,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P10,PDS000015678.325,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P11,PDS000267523.12,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P12,PDS000012112.257,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P13,PDS000040355.81,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P14,PDS000041740.207,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P15,PDS000045379.67,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P16,PDS000052089.288,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P17,PDS000052355.137,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P18,PDS000060581.86,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P19,PDS000123673.216,package filename; NCBI membership not independently verified,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P20,PDS000269692.3,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P21,PDS000046910.123,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P22,PDS000045585.70,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P23,PDS000247524.6,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P30,PDS000267523.7,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P31,PDS000269670.2,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P32,PDS000269692.3,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P33,PDS000254465.10,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED
+P34,PDS000269692.3,filename or prior project label; source-level membership not verified in this audit,,,,,,,,,,UNDECIDED,,,,NOT_APPROVED

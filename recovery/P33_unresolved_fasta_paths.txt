@@ -1,0 +1,3 @@
+unzipped/K_318_1716 (1)/ncbi_dataset/data/GCA_051112405.1/GCA_051112405.1_PDT002814961.1_genomic.fna
+unzipped/K_87_1716 (1)/ncbi_dataset/data/GCA_055007225.1/GCA_055007225.1_PDT003084900.1_genomic.fna
+unzipped/K_88_1716 (2)/ncbi_dataset/data/GCA_055006825.1/GCA_055006825.1_PDT003084924.1_genomic.fna

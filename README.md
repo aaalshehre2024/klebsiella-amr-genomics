@@ -1,33 +1,36 @@
 # Klebsiella AMR genomics
 
-Research workspace for a database-derived analysis of selected *Klebsiella pneumoniae* genomic collections, intended for submission to *Antibiotics*.
+Audit-first research workspace for a database-derived *Klebsiella pneumoniae* study intended for **Antibiotics** (MDPI).
 
-## Current status: first 19-package audit
+**Status: development / cohort reconciliation. Not a publication-ready dataset or accepted paper.**
 
-The first-tranche audit dated 2 November 2026 covers exactly 19 uploaded result packages. Eighteen archives are readable; 17 contain selected full main outputs and 16 contain selected hAMRonization outputs. The selected main tables contain 11,464 package-level observations and 11,306 distinct leading GCA/GCF accession.version identifiers after accounting for 158 repeated-accession observations. A further 503 records are available only as abbreviated logs and are kept separate.
+## Current intake
 
-**These are provisional file-audit counts, not a final biological-isolate denominator or a publication-ready dataset.** One M_K5 archive is unreadable. The 610 package lacks full outputs, and the 548 package lacks detailed output and has a technical failure requiring review.
+The combined 2 November 2026 audit covers 34 uploads: 28 distinct archive payloads after folding six byte-identical reuploads. Twenty-seven distinct archives are readable; 26 provide full main tables and 25 detailed hAMRonization files. There are 18,384 package-level main observations and 16,980 distinct leading assembly accession.version identifiers. These are not yet verified unique biological isolates. The 503 log-only records remain separate.
 
-## Start here
+Read [the combined audit](audits/2026-11-02_combined/AUDIT_REPORT.md) and [submission readiness](docs/SUBMISSION_READINESS.md). The first-tranche audit remains archived; its counts are not additive to the combined audit.
 
-- [Audit findings and package inventory](audits/2026-11-02_batch01/AUDIT_REPORT.md)
-- [Machine-readable audit summary](audits/2026-11-02_batch01/audit_summary.json)
-- [Uploaded archive SHA-256 provenance](audits/2026-11-02_batch01/input_archives_sha256.csv)
-- [Recovery priorities](audits/2026-11-02_batch01/RECOVERY_ACTIONS.md)
-- [Post-audit analysis and manuscript plan](manuscript/ANALYSIS_PLAN.md)
+## Start locally
 
-The current public repository contains audit/provenance documentation and the manuscript plan. Original result ZIPs and unrestricted logs have not been uploaded here. The accompanying downloadable audit bundle contains the detailed working tables, explicit package-selection manifest, reproducible audit script and six synthetic tests. A reviewed code/data release remains pending.
+Use Python 3.10 or later. The audit uses only the standard library and does not rerun Kleborate.
 
-## Analytical boundaries
+```bash
+python3 scripts/test_project.py
+python3 scripts/reconcile_uploads.py --input-dir /path/to/selected_result_zips --manifest metadata/uploads_34.json --output-dir local_outputs/combined_audit_001
+```
 
-A result ZIP is a processing package, not necessarily a distinct SNP-cluster collection. Establish biological cohorts from frozen metadata, versioned PDS/PDT/assembly identifiers and verified tree linkage. PDG labels and local batch names do not establish PDS membership.
+The manifest refers to the exact 34 supplied result ZIP filenames and SHA-256 hashes. Byte-identical reuploads are logged but parsed once. A changed ZIP is a new audit input and requires a new versioned manifest; do not edit a checksum to suppress a mismatch. Existing output directories are never overwritten. Results archives are not genome-download archives.
 
-Missing output is not a negative biological finding. A failed command is not a confirmed taxonomic exclusion. Genomic annotation alone does not establish clinical resistance, hypervirulence, plasmid co-location, transmission or population prevalence. All marker flags and source provenance must remain traceable.
+## Evidence rules
 
-## Workflow
+A ZIP or local batch is not an independent biological collection. PDG and PDS labels are not interchangeable. Preserve accession versions and verify metadata–assembly–PDT–tree linkage. Keep newer and older collection snapshots separate until a documented analysis decision is made. Do not interpret missing files, technical failures, or absent log fields as biological negatives. Do not make population-prevalence, transmission, plasmid co-location, or clinical validation claims from annotation tables alone.
 
-Preserve input hashes; resolve output availability and collection membership; reconcile overlapping accessions and paired assemblies; freeze feature-interpretation rules; generate analysis tables and figures from reviewed records; then archive the version supporting the manuscript.
+## Files and release status
 
-## Licensing and citation
+`metadata/` contains frozen upload selections and a collection-manifest template. `scripts/` and `tests/` contain the audit/recovery code and tests. `audits/2026-11-02_combined/` contains compact provenance and findings. `docs/` contains the dictionary, recovery guide and release requirements. `release_data/` is reserved for approved manuscript evidence.
 
-Licensing, contributor metadata and the eventual archival release remain to be finalized by the authors. No publication DOI or acceptance status is asserted.
+The complete provisional working tables are supplied in the companion audit bundle. Original archives, local filesystem logs and unreviewed large tables are not automatically published here. No final numerical Results should be drafted until the eligibility and denominator gates are resolved.
+
+## Citation and permissions
+
+CITATION.cff describes this development repository, not a published article. Licensing, contributor approval and a version-specific repository DOI remain author decisions. Public visibility is not a declaration that third-party data can be relicensed. See docs/LICENSING_STATUS.md.

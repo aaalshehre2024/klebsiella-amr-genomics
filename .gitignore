@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+input_raw/
+local_outputs/
+recovery_inputs/
+*.zip
+*.fna
+*.fna.gz
+*.fasta
+*.fa
+*.log

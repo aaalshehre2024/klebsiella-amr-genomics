@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the versioned release supporting the analysis; this development workspace is not a published article."
+title: "Klebsiella AMR genomics: audit and reproducibility workspace"
+type: software
+authors:
+  - family-names: Alshehri
+    given-names: Abdullateef Abdullah
+repository-code: "https://github.com/aaalshehre2024/klebsiella-amr-genomics"
+url: "https://github.com/aaalshehre2024/klebsiella-amr-genomics"
+abstract: "Development audit and provenance workspace for selected public Klebsiella genomic result packages. Cohort eligibility remains under review."

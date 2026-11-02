@@ -1,0 +1,12 @@
+id,packages,priority,finding,required_action,completion_evidence
+R01,P06/P28,Blocking,M_K5 ZIP unreadable; reupload is identical,Recreate ZIP from original full outputs; run unzip -t; reupload,M_K5 readable main and hAMR outputs
+R02,P34,Blocking,52 file-open failures; 877/929 results,Stage original inputs to safe local paths and rerun only these 52,52 individually reconciled outcomes
+R03,P20,Blocking,GCA_033193795.1 shell/path failure,Rerun one assembly from safe path,One full main outcome and matching details
+R04,P33,Blocking,3 shell/path failures; 1152/1155 results,"Rerun GCA_051112405.1, GCA_055007225.1, GCA_055006825.1 safely","Three reconciled outcomes, not automatic exclusion"
+R05,P14,Blocking,GCA_054407865.1 unresolved; hAMR absent,Rerun unresolved input and recover detailed output,Full output layer or documented restricted eligibility
+R06,P17,Blocking,503 abbreviated records only,Recover full main and hAMR files; otherwise restrict eligible evidence,Full outputs or explicit restricted-scope decision
+R07,P02/P24,Review,3 omitted inputs unidentified,Recover original 846-input accession manifest and reasons,Named omission record
+R08,P03/P25,Review,GCA_021968515.1.zip failed upstream check,Test/redownload source archive or document unavailability,Upstream availability reconciled
+R09,P11/P30,Blocking,"Version .12 vs .7 overlap 1224; 4 older-only, 27 newer-only",Choose primary snapshot after metadata comparison; retain other as sensitivity,No double counting of snapshots
+R10,P04-P07 and expanded cohort,Blocking,PDG labels and filenames do not prove PDS membership,Provide frozen accession-PDT-PDS-version crosswalk and dates,Verified biological collection membership
+R11,All,Author decision,"License, contributor approval, final release DOI not established",Approve reuse terms and release only after scientific QC,Versioned approved release and Data Availability Statement

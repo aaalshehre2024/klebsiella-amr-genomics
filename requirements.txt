@@ -1,0 +1,3 @@
+# The audit and tests use Python standard-library modules only.
+# No pip packages are required. Python >=3.10 is supported by syntax.
+# Local tests were run with Python 3.13.5; original Kleborate environments are separate.
