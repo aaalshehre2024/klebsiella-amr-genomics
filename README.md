@@ -4,15 +4,18 @@ Audit-first research workspace for a database-derived *Klebsiella pneumoniae* st
 
 **Status: development / cohort reconciliation. Not a publication-ready dataset or accepted paper.**
 
-## Current intake and recovery status
+## Selected sources for 610 and 548
 
-The original combined 2 November 2026 audit covers 34 uploads: 28 distinct archive payloads after folding six byte-identical reuploads. That historical audit remains unchanged.
+On 3 November 2026 the study author selected one result ZIP for each of these two collections. Use each independently for research. The counts refer to versioned assembly accessions in that ZIP's own FASTA list.
 
-**Latest amendment:** the complete 610 recovery archive supplies full main and detailed hAMRonization tables for all 503 original listed inputs. These replace P17's log-only evidence rather than creating another biological collection. The updated working data contain 18,887 package-level main observations and 17,483 distinct leading assembly accession.version identifiers. These are not yet verified unique biological isolates. No records in this intake remain supported only by abbreviated logs.
+| Package label | Listed assemblies | Records available for analysis | Detailed hAMRonization table |
+|---|---:|---|---|
+| 610 (PDS000052355.137) | 503 | 503 eight-field batch-log records. Use the reported species, N50, ST, scores and counts. The selected ZIP lacks a full main table. | Unavailable |
+| 548 (PDS000041740.207) | 430 | 429 full main-table records. The five logs corroborate the same records. One input, GCA_054407865.1, has an unresolved technical failure. | Unavailable |
 
-**548 remains unresolved:** its existing main table contains 429 of 430 original inputs, and its detailed hAMRonization output is still missing. All recovered candidate batch tables under the current 548 directory match 709 results, not the original 548 accession list. The original 430-input 548 manifest is preserved separately in the companion recovery bundle. Do not use the current 703-input list to rerun 548.
+Use the selected 610 logs for analyses of the fields they contain. Restrict named AMR determinants and K/O and virulence locus analyses to sources that actually report those fields. For 548, apply the relevant typing-confidence and QC rules to its full table.
 
-Read [the recovery amendment](audits/2026-11-02_recovery_610_548/RECOVERY_REPORT.md), [its machine-readable summary](audits/2026-11-02_recovery_610_548/recovery_summary.json), [the historical combined audit](audits/2026-11-02_combined/AUDIT_REPORT.md), and [submission readiness](docs/SUBMISSION_READINESS.md). Historical audit counts are not additive to the latest counts. The 57 named technical unresolved inputs and other documented recovery/provenance issues remain open.
+The [source register](audits/2026-11-03_selected_610_548/source_register.tsv) identifies the selected files by SHA-256. The [research-use notes](audits/2026-11-03_selected_610_548/README.md) give the evidence available for each analysis. The [2 November recovery audit](audits/2026-11-02_recovery_610_548/RECOVERY_REPORT.md) and [combined intake audit](audits/2026-11-02_combined/AUDIT_REPORT.md) describe earlier source selections. Their pooled totals do not carry forward to this selection. Study-wide denominators require separate reconciliation. See [submission readiness](docs/SUBMISSION_READINESS.md).
 
 ## Reproduce the original intake audit locally
 

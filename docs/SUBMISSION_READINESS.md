@@ -10,7 +10,7 @@ Engineering/audit preparation is not scientific approval.
 | GitHub-hosted test execution | CHECK ACTIONS | Workflow result for exact commit; do not infer from local tests |
 | Corrupt M_K5 result archive | BLOCKED | Newly tested readable archive/full tables |
 | 57 named technical unresolved inputs | BLOCKED | Safe-path reruns or individually justified outcomes |
-| 610 full main/hAMR and 548 hAMR | BLOCKED | Recover outputs or lock narrower eligibility |
+| 610 and 548 source selection | RESTRICTED BY SOURCE | Use the [selected ZIPs](../audits/2026-11-03_selected_610_548/README.md). 610 supplies eight log fields for 503 assemblies. 548 supplies full main results for 429 of 430. Both lack detailed hAMRonization tables. |
 | M_K1 three unidentified omissions / M_K2 upstream ZIP | REVIEW | Named input manifest and archive decision |
 | Snapshot .7 versus .12 reconciliation | BLOCKED | Final version rule; no double counting |
 | Extended collection identities and tree mapping | BLOCKED | Frozen metadata and accession–PDT–PDS–tree crosswalk |
