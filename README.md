@@ -6,6 +6,8 @@ Audit-first research workspace for a database-derived *Klebsiella pneumoniae* st
 
 ## Selected sources for 610 and 548
 
+Browse the checked assembly tables, manifests and workbook downloads in the [610 data folder](audits/2026-11-03_selected_610_548/610/) and the [548 data folder](audits/2026-11-03_selected_610_548/548/).
+
 On 3 November 2026 the study author selected one result ZIP for each of these two collections. Use each independently for research. The counts refer to versioned assembly accessions in that ZIP's own FASTA list.
 
 | Package label | Listed assemblies | Records available for analysis | Detailed hAMRonization table |
@@ -38,7 +40,7 @@ A ZIP or local batch is not an independent biological collection. PDG and PDS la
 
 `metadata/` contains frozen upload selections and a collection-manifest template. `scripts/` and `tests/` contain the original intake audit/recovery code and tests. `audits/` contains versioned compact provenance and findings. `docs/` contains the dictionary, recovery guide and release requirements. `release_data/` is reserved for approved manuscript evidence.
 
-The complete provisional working tables are supplied in the companion audit/recovery bundles. Original archives, local filesystem logs and unreviewed large tables are not automatically published here. No final numerical Results should be drafted until the eligibility and denominator gates are resolved.
+The checked tables for the selected 610 and 548 sources are available in the audit folders above. Earlier provisional working tables are supplied in the companion audit/recovery bundles. Original archives, local filesystem logs and unreviewed large tables are not automatically published here. No final numerical Results should be drafted until the eligibility and denominator gates are resolved.
 
 ## Citation and permissions
 

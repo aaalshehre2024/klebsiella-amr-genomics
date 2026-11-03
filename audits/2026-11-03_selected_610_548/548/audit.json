@@ -1,0 +1,27 @@
+{
+  "collection_label": "548",
+  "package_pds_label": "PDS000041740.207",
+  "source_sha256": "e37a999cc08118b0fdf1ff9d298f9884cb9979f7be9f5c3a8d97ec2000ac2389",
+  "source_filename": "PDS000041740_207_548_FINAL_kleborate_results(2).zip",
+  "crc_integrity": "passed",
+  "non_directory_members": 10,
+  "source_archive_paths": 431,
+  "listed_fasta_paths": 431,
+  "selected_versioned_assembly_accessions": 430,
+  "batch_logs": 5,
+  "log_rows": 429,
+  "full_main_rows": 429,
+  "main_source_columns": 117,
+  "log_source_columns": 8,
+  "hamronization_table_supplied": false,
+  "unresolved_accessions": [
+    "GCA_054407865.1"
+  ],
+  "original_fasta_path_member": "all_available_fasta_paths.txt",
+  "selected_input_member": "all_available_fasta_paths_unique.txt",
+  "source_archive_list_member": "zip_paths_clean.txt",
+  "skipped_path_members": [
+    "final_full_results/PDS000041740_207_548_excluded_or_skipped_fasta_paths.txt"
+  ],
+  "selected_outer_label_differences": 26
+}

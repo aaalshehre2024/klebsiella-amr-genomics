@@ -1,0 +1,23 @@
+{
+  "collection_label": "610",
+  "package_pds_label": "PDS000052355.137",
+  "source_sha256": "3fdfd66498b31b12b103b09726572800692cbd07ae747d6b4ce8e98d28fe9dab",
+  "source_filename": "PDS000052355_137_610_FINAL_kleborate_results(2).zip",
+  "crc_integrity": "passed",
+  "non_directory_members": 9,
+  "source_archive_paths": 503,
+  "listed_fasta_paths": 503,
+  "selected_versioned_assembly_accessions": 503,
+  "batch_logs": 6,
+  "log_rows": 503,
+  "full_main_rows": 0,
+  "main_source_columns": 0,
+  "log_source_columns": 8,
+  "hamronization_table_supplied": false,
+  "unresolved_accessions": [],
+  "original_fasta_path_member": "all_available_fasta_paths.txt",
+  "selected_input_member": "all_available_fasta_paths_unique.txt",
+  "source_archive_list_member": "zip_paths_clean.txt",
+  "skipped_path_members": [],
+  "selected_outer_label_differences": 1
+}

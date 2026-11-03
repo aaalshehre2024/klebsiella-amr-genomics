@@ -1,0 +1,4 @@
+source_member	source_line	source_text
+batch_logs/batch_002.log	1	"/bin/sh: 1: Syntax error: ""("" unexpected"
+batch_logs/batch_002.log	83	Assembly unzipped/GCA_054407865.1 (1)/ncbi_dataset/data/GCA_054407865.1/GCA_054407865.1_PDT002651427.1_genomic.fna failed in check is_kp_complex.
+batch_logs/batch_002.log	84	Assembly unzipped/GCA_054407865.1 (1)/ncbi_dataset/data/GCA_054407865.1/GCA_054407865.1_PDT002651427.1_genomic.fna does not match any specified species. Skipping to next assembly.

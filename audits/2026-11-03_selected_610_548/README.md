@@ -2,6 +2,15 @@
 
 The study author designated one ZIP per package on 3 November 2026. Use the SHA-256 values in the [source register](source_register.tsv) to identify these inputs. Each extract is built independently from its own archive. The PDS and collection labels follow the source package. Independent validation of membership against a frozen NCBI export or tree requires additional evidence.
 
+## Browse the checked data
+
+| Collection | Assembly-level table | Inputs and supporting files |
+|---|---|---|
+| 610 · PDS000052355.137 | [503 batch-log records](610/log_results.tsv) | [Input manifest](610/input_manifest.tsv) · [Workbook, research ZIP and provenance](610/) |
+| 548 · PDS000041740.207 | [429 full Kleborate records](548/main_results.tsv) | [430-input manifest](548/input_manifest.tsv) · [Workbook, research ZIP and provenance](548/) |
+
+Each collection folder contains its tables as browsable TSVs and its workbook and reproducible research ZIP as downloads. The [published file checksums](SHA256SUMS.txt) cover these files. The [source register](source_register.tsv) records the checksums of the two original input archives.
+
 ## 610 (PDS000052355.137)
 
 All 503 versioned assembly accessions in the selected FASTA manifest match a row in one of six batch logs. Each row has the strain identifier and seven reported values: species, N50, ST, virulence score, resistance score, resistance-class count and resistance-gene count. This source supports analysis of those fields. Individual resistance determinants, individual virulence loci, K/O types and typing-confidence fields are unavailable. Detailed hAMRonization output is unavailable.
