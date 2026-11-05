@@ -6,7 +6,7 @@ Status: proposed analyses following inspection of the first 19 result packages. 
 
 Treat packages, technical batches, versioned NCBI collections, assembly accessions and biological isolates as separate entities. Complete an accession-to-PDS/PDT/BioSample crosswalk and record source query, selection rationale, exact export/download dates and tree version. M_K batches and PDG labels cannot define independent SNP clusters. Keep primary verified metadata/tree collections separate from exploratory expanded collections. Preserve version differences such as PDS000267523.7 versus .12; do not silently replace an older snapshot.
 
-Recover the unreadable M_K5 package, full 610 outputs and missing 548 hAMRonization. Review the 548 technical failure, M_K2 upstream archive failure and M_K1 unexplained omissions. Missing evidence is not gene absence, and a shell error is not a taxonomic exclusion.
+As of 5 November the full main and detailed hAMRonization outputs for 610 and 548 are available. The previous 548 technical case has a verified result. Record M_K5, the M_K2 upstream archive and M_K1 omissions separately from the remaining 56 named technical cases. Use the [current evidence and writing checklist](../audits/2026-11-05_updated_610_548/PAPER_READINESS.md) before fixing the study-wide cohort.
 
 ## Table 1: cohort flow and evidence availability
 

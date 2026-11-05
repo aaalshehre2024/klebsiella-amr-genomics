@@ -1,0 +1,93 @@
+{
+  "collection_label": "610",
+  "package_pds_label": "PDS000052355.137",
+  "source_filename": "PDS000052355_137_610_F_FINAL_kleborate_results.zip",
+  "source_sha256": "e53fc526598b0cdc873f78d1a620d2bff245881356d3e434fa09beb1cb716f6b",
+  "source_crc": "passed",
+  "published_2026_11_03_manifest_sha256": "a3c54bf6cec53c849bfa615d82ae7d223f6f54b4c344f908daed2b8fa108f7ae",
+  "non_directory_members": 15,
+  "listed_input_accessions": 503,
+  "main_source_columns": 117,
+  "main_rows": 503,
+  "detailed_amr_source_columns": 32,
+  "detailed_amr_rows_as_supplied": 13826,
+  "exact_distinct_amr_rows": 8939,
+  "amr_exact_repeat_observations": 4887,
+  "assemblies_with_main_and_detailed_amr": 503,
+  "missing_main_accessions": [],
+  "missing_amr_accessions": [],
+  "prior_main_rows": 0,
+  "prior_log_rows": 503,
+  "prior_strain_and_accession_sets_match": true,
+  "old_vs_new_log_and_main_shared_non_id_cells_compared": 3521,
+  "old_vs_new_shared_field_conflicts": 0,
+  "new_batch_logs": 6,
+  "new_log_rows": 503,
+  "full_main_source_member": "final_full_results/PDS000052355_137_610_FINAL_klebsiella_pneumo_complex_output.txt",
+  "full_hamr_source_member": "final_full_results/PDS000052355_137_610_FINAL_hAMRonization_output.txt",
+  "native_table_sha256": {
+    "main_results.tsv": "3a1dfcc9159b4e8c59952aabf4917b42c46cfa25cbced80b7b084e8db298bbe2",
+    "hamronization.tsv": "29cd40ae4ac137938612d2b208ea4a34a5f56eb1078ddb9c505b524bf9fba329"
+  },
+  "hAMR_origin": "Merged hAMRonization table as supplied. Batch-level hAMRonization files are absent; upstream merge not independently reconstructible from this archive.",
+  "source_archive_outer_label_discrepancies": {
+    "GCA_036905415.1": "GCF_036905415.1"
+  },
+  "hAMR_reported_software_and_database": {
+    "Software_name": {
+      "Kleborate": 13826
+    },
+    "Software_version": {
+      "3.2.4": 13826
+    },
+    "Reference_database_name": {
+      "CARD": 13826
+    },
+    "Reference_database_version": {
+      "3.2.9": 13826
+    }
+  },
+  "source_qc_files_empty": [
+    "final_full_results/excluded_or_skipped_assemblies.txt",
+    "qc/zip_folders_no_fasta.txt",
+    "qc/bad_zip_files.txt"
+  ],
+  "raw_main_field_distributions": {
+    "species": {
+      "Klebsiella pneumoniae": 503
+    },
+    "species_match": {
+      "strong": 503
+    },
+    "ST": {
+      "ST11-1LV": 1,
+      "ST1199": 2,
+      "ST258": 495,
+      "ST258-1LV": 5
+    },
+    "QC_warnings": {
+      "-": 495,
+      "ambiguous_bases": 8
+    },
+    "resistance_score": {
+      "0": 6,
+      "1": 8,
+      "2": 484,
+      "3": 5
+    },
+    "virulence_score": {
+      "0": 247,
+      "1": 103,
+      "2": 153
+    },
+    "K_locus_confidence": {
+      "Typeable": 502,
+      "Untypeable": 1
+    },
+    "O_locus_confidence": {
+      "Typeable": 454,
+      "Untypeable": 49
+    }
+  },
+  "non_dash_Bla_Carb_acquired_assemblies": 489
+}

@@ -1,5 +1,7 @@
 # Selected research sources for 610 and 548
 
+**Historical source selection of 3 November.** The [updated 5 November profiles](../2026-11-05_updated_610_548/) contain full main and detailed AMR outputs for all selected inputs. The counts below describe the original files in this folder.
+
 The study author designated one ZIP per package on 3 November 2026. Use the SHA-256 values in the [source register](source_register.tsv) to identify these inputs. Each extract is built independently from its own archive. The PDS and collection labels follow the source package. Independent validation of membership against a frozen NCBI export or tree requires additional evidence.
 
 ## Browse the checked data

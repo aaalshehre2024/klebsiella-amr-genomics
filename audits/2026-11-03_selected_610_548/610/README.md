@@ -1,5 +1,7 @@
 # Collection 610 · PDS000052355.137
 
+**Historical source selection of 3 November.** The [updated 5 November profiles](../../2026-11-05_updated_610_548/610/) contain full main and detailed AMR outputs for all selected inputs. The counts below describe the original files in this folder.
+
 All **503 listed assemblies** match one record in the six batch logs. Each record reports the strain, species, N50, sequence type, virulence score, resistance score, resistance-class count and resistance-gene count. This ZIP lacks the full main table and detailed hAMRonization output. Named AMR determinants, individual virulence loci and K/O types are therefore unavailable from this source.
 
 | File | Contents |

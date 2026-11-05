@@ -1,0 +1,150 @@
+Gene_symbol	Mutation	Genetic_variation_type	Drug_class	raw_records	unique_assemblies
+GyrA	p.Ser83Ile	Protein variant detected	fluoroquinolone antibiotic	430	430
+ParC	p.Ser80Ile	Protein variant detected	fluoroquinolone antibiotic	430	430
+SHV-28	-	Gene presence detected	penicillin beta-lactam	681	424
+dfrA14.v2	-	Gene presence detected	Diaminopyrimidine antibiotic	652	408
+CTX-M-15	-	Gene presence detected	third-generation cephalosporin	637	394
+sul2	-	Gene presence detected	sulfonamide antibiotic	630	390
+strA.v1	-	Gene presence detected	aminoglycoside antibiotic	629	386
+strB.v1	-	Gene presence detected	aminoglycoside antibiotic	623	386
+qnrB1.v2	-	Gene presence detected	Fluoroquinolone antibiotic	563	355
+OXA-1	-	Gene presence detected	penicillin beta-lactam	552	349
+aac(6)-Ib-cr.v2	-	Gene presence detected	aminoglycoside antibiotic	534	344
+catB3.v1	-	Gene presence detected	phenicol antibiotic	537	343
+aac(6)-Ib-cr.v2	-	Gene presence detected	Fluoroquinolone antibiotic	527	342
+aac(3)-IIa.v1	-	Gene presence detected	aminoglycoside antibiotic	536	341
+tet(A).v1	-	Gene presence detected	Tetracycline antibiotic	498	322
+KPC-3	-	Gene presence detected	carbapenem	119	94
+sul1	-	Gene presence detected	sulfonamide antibiotic	81	48
+KPC-2	-	Gene presence detected	carbapenem	67	38
+OXA-9.v1	-	Gene presence detected	penicillin beta-lactam	48	28
+qnrS1	-	Gene presence detected	Fluoroquinolone antibiotic	44	28
+NDM-5	-	Gene presence detected	carbapenem	39	25
+mphE.v2	-	Gene presence detected	Macrolide antibiotic	35	24
+msrE	-	Gene presence detected	Macrolide antibiotic	35	24
+Mrx	-	Gene presence detected	Macrolide antibiotic	34	22
+mphA	-	Gene presence detected	Macrolide antibiotic	33	22
+qnrB4	-	Gene presence detected	Fluoroquinolone antibiotic	33	20
+NDM-1	-	Gene presence detected	carbapenem	30	20
+DHA-1	-	Gene presence detected	penicillin beta-lactam	27	17
+armA	-	Gene presence detected	aminoglycoside antibiotic	26	17
+aadA2	-	Gene presence detected	aminoglycoside antibiotic	23	14
+aadA	-	Gene presence detected	aminoglycoside antibiotic	23	13
+LAP-2	-	Gene presence detected	penicillin beta-lactam	21	13
+arr-3	-	Gene presence detected	Rifamycin antibiotic	19	12
+catII.2	-	Gene presence detected	phenicol antibiotic	18	11
+SHV-1	-	Gene presence detected	penicillin beta-lactam	13	11
+NDM-7	-	Gene presence detected	carbapenem	20	10
+dfrA12	-	Gene presence detected	Diaminopyrimidine antibiotic	14	10
+aac(6)-Ib.v1	-	Gene presence detected	aminoglycoside antibiotic	18	9
+OmpK35	p.Gln275fs	Inactivating mutation detected	-	9	9
+TEM-103	-	Gene presence detected	penicillin beta-lactam	11	8
+OmpK36	p.Gly182fs	Inactivating mutation detected	-	8	8
+catA1	-	Gene presence detected	phenicol antibiotic	11	7
+tet(D)	-	Gene presence detected	Tetracycline antibiotic	9	7
+CTX-M-14	-	Gene presence detected	third-generation cephalosporin	8	7
+SHV-106	-	Gene presence detected	third-generation cephalosporin	7	7
+aadA5	-	Gene presence detected	aminoglycoside antibiotic	14	6
+CTX-M-9	-	Gene presence detected	third-generation cephalosporin	13	6
+dfrA27	-	Gene presence detected	Diaminopyrimidine antibiotic	7	6
+aac(6)-Ib-cr.v1	-	Gene presence detected	aminoglycoside antibiotic	6	6
+dfrA1.v2	-	Gene presence detected	Diaminopyrimidine antibiotic	10	5
+aadA16	-	Gene presence detected	aminoglycoside antibiotic	5	5
+arr-2	-	Gene presence detected	Rifamycin antibiotic	10	4
+catB3.v2	-	Gene presence detected	phenicol antibiotic	9	4
+OXA-48	-	Gene presence detected	carbapenem	8	4
+aac(6)-Ib-cr4	-	Gene presence detected	aminoglycoside antibiotic	8	4
+aph(3)-VI	-	Gene presence detected	aminoglycoside antibiotic	8	4
+dfrA5	-	Gene presence detected	Diaminopyrimidine antibiotic	7	4
+aac(6)-Ib-cr.v1	-	Gene presence detected	Fluoroquinolone antibiotic	4	4
+qnrB19	-	Gene presence detected	Fluoroquinolone antibiotic	6	3
+SHV	p.Gly238Ser	Protein variant detected	penicillin beta-lactam	5	3
+VIM-1	-	Gene presence detected	carbapenem	5	3
+aac(3)-IId	-	Gene presence detected	aminoglycoside antibiotic	5	3
+rmtF	-	Gene presence detected	aminoglycoside antibiotic	5	3
+CTX-M-3	-	Gene presence detected	third-generation cephalosporin	4	3
+sul3	-	Gene presence detected	sulfonamide antibiotic	4	3
+tet(B).v2	-	Gene presence detected	Tetracycline antibiotic	4	3
+tetR	-	Gene presence detected	Tetracycline antibiotic	4	3
+qnrB1.v1	-	Gene presence detected	fluoroquinolone antibiotic	3	3
+qnrB6	-	Gene presence detected	Fluoroquinolone antibiotic	3	3
+tmexC1	-	Gene presence detected	Tetracycline antibiotic	3	3
+tmexD1	-	Gene presence detected	Tetracycline antibiotic	3	3
+toprJ1	-	Gene presence detected	Tetracycline antibiotic	3	3
+OXA-10	-	Gene presence detected	penicillin beta-lactam	6	2
+cmlA5	-	Gene presence detected	phenicol antibiotic	6	2
+aadA1.v1	-	Gene presence detected	aminoglycoside antibiotic	5	2
+catB2.v1	-	Gene presence detected	phenicol antibiotic	5	2
+dfrA32	-	Gene presence detected	Diaminopyrimidine antibiotic	5	2
+ereA	-	Gene presence detected	Macrolide antibiotic	5	2
+aac(6)-Ib	-	Gene presence detected	aminoglycoside antibiotic	4	2
+aph(3)-Ia	-	Gene presence detected	aminoglycoside antibiotic	4	2
+aph(3)-VIb	-	Gene presence detected	aminoglycoside antibiotic	4	2
+aphA15	-	Gene presence detected	aminoglycoside antibiotic	4	2
+floR.v1	-	Gene presence detected	phenicol antibiotic	4	2
+floR.v2	-	Gene presence detected	phenicol antibiotic	4	2
+mcr-9.1	-	Gene presence detected	peptide antibiotic	4	2
+SHV	p.Glu240Lys	Protein variant detected	penicillin beta-lactam	3	2
+dfrA14.v1	-	Gene presence detected	Diaminopyrimidine antibiotic	3	2
+OmpK35	c.T901del	Inactivating mutation detected	-	2	2
+OmpK35	p.Ala207fs	Inactivating mutation detected	-	2	2
+OmpK36	c.25C>T	Nucleotide variant detected	-	2	2
+OmpK36	c.T549del	Inactivating mutation detected	-	2	2
+aph(3)-IIa	-	Gene presence detected	aminoglycoside antibiotic	2	2
+qnrB1.v2	-	Gene presence detected	fluoroquinolone antibiotic	2	2
+tet(C)	-	Gene presence detected	Tetracycline antibiotic	2	2
+CTX-M-139	-	Gene presence detected	third-generation cephalosporin	2	1
+CTX-M-156	-	Gene presence detected	third-generation cephalosporin	2	1
+SHV-30	-	Gene presence detected	third-generation cephalosporin	2	1
+SHV-7	-	Gene presence detected	third-generation cephalosporin	2	1
+ant(2)-Ia	-	Gene presence detected	aminoglycoside antibiotic	2	1
+dfrA17	-	Gene presence detected	Diaminopyrimidine antibiotic	2	1
+dfrB1	-	Gene presence detected	Diaminopyrimidine antibiotic	2	1
+qnrB1.v1	-	Gene presence detected	Fluoroquinolone antibiotic	2	1
+tetM.v1	-	Gene presence detected	Tetracycline antibiotic	2	1
+IMP-4	-	Gene presence detected	carbapenem	1	1
+KPC-83	-	Gene presence detected	carbapenem	1	1
+OXA-181	-	Gene presence detected	carbapenem	1	1
+OmpK35	c.T482del	Inactivating mutation detected	-	1	1
+OmpK35	p.Ala231fs	Inactivating mutation detected	-	1	1
+OmpK35	p.Asn48fs	Inactivating mutation detected	-	1	1
+OmpK35	p.Gly166fs	Inactivating mutation detected	-	1	1
+OmpK35	p.Gly65fs	Inactivating mutation detected	-	1	1
+OmpK35	p.Gly77fs	Inactivating mutation detected	-	1	1
+OmpK35	p.Thr315fs	Inactivating mutation detected	-	1	1
+OmpK36	c.G331del	Inactivating mutation detected	-	1	1
+OmpK36	c.T72del	Inactivating mutation detected	-	1	1
+OmpK36	p.Asn30fs	Inactivating mutation detected	-	1	1
+OmpK36	p.Gln76fs	Inactivating mutation detected	-	1	1
+OmpK36	p.Ser124fs	Inactivating mutation detected	-	1	1
+OmpK36	p.Trp77fs	Inactivating mutation detected	-	1	1
+SCO-1	-	Gene presence detected	penicillin beta-lactam	1	1
+SHV	p.Leu35Gln	Protein variant detected	penicillin beta-lactam	1	1
+SHV-12	-	Gene presence detected	third-generation cephalosporin	1	1
+SHV-129	-	Gene presence detected	third-generation cephalosporin	1	1
+SHV-143	-	Gene presence detected	penicillin beta-lactam	1	1
+SHV-148	-	Gene presence detected	penicillin beta-lactam	1	1
+TEM-1	-	Gene presence detected	penicillin beta-lactam	1	1
+TEM-135.v2	-	Gene presence detected	penicillin beta-lactam	1	1
+TEM-206	-	Gene presence detected	penicillin beta-lactam	1	1
+TEM-90	-	Gene presence detected	penicillin beta-lactam	1	1
+VEB-3	-	Gene presence detected	third-generation cephalosporin	1	1
+aac(6)-Ib-cr5	-	Gene presence detected	Fluoroquinolone antibiotic	1	1
+aac(6)-Ib-cr5	-	Gene presence detected	aminoglycoside antibiotic	1	1
+aadA25	-	Gene presence detected	aminoglycoside antibiotic	1	1
+aph(6)-Id.v2	-	Gene presence detected	aminoglycoside antibiotic	1	1
+cmlA1	-	Gene presence detected	phenicol antibiotic	1	1
+dfrA15.v2	-	Gene presence detected	Diaminopyrimidine antibiotic	1	1
+dfrA8	-	Gene presence detected	Diaminopyrimidine antibiotic	1	1
+fosA3	-	Gene presence detected	phosphonic acid antibiotic	1	1
+fosA4	-	Gene presence detected	phosphonic acid antibiotic	1	1
+mgrb	c.C49del	Inactivating mutation detected	peptide antibiotic	1	1
+mgrb	p.Asn42fs	Inactivating mutation detected	peptide antibiotic	1	1
+mgrb	p.Val7fs	Inactivating mutation detected	peptide antibiotic	1	1
+mphB.v1	-	Gene presence detected	Macrolide antibiotic	1	1
+pmrb	c.C384del	Inactivating mutation detected	peptide antibiotic	1	1
+pmrb	c.G357del	Inactivating mutation detected	peptide antibiotic	1	1
+qnrE2	-	Gene presence detected	Fluoroquinolone antibiotic	1	1
+rmtG	-	Gene presence detected	aminoglycoside antibiotic	1	1
+sat-2	-	Gene presence detected	aminoglycoside antibiotic	1	1
+sph.v1	-	Gene presence detected	aminoglycoside antibiotic	1	1

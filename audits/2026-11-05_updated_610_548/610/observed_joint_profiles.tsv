@@ -1,0 +1,13 @@
+ST	K_locus	K_locus_confidence	O_locus	O_locus_confidence	unflagged_Bla_Carb_acquired_families	assemblies	main_table_assemblies
+ST258	KL107	Typeable	OL2α.2	Typeable	KPC	390	503
+ST258	KL107	Typeable	OL13	Untypeable	KPC	46	503
+ST258	KL107	Typeable	OL2α.1	Typeable	KPC	42	503
+ST258	KL107	Typeable	OL2α.2	Typeable	-	12	503
+ST258-1LV	KL107	Typeable	OL2α.2	Typeable	KPC	5	503
+ST1199	KL107	Typeable	OL2α.2	Typeable	KPC	2	503
+ST11-1LV	KL107	Typeable	OL13	Untypeable	KPC	1	503
+ST258	KL107	Typeable	OL13	Untypeable	-	1	503
+ST258	KL107	Typeable	OL2α.1	Typeable	-	1	503
+ST258	KL107	Typeable	OL2α.1	Untypeable	KPC	1	503
+ST258	KL107	Typeable	OL2α.2	Typeable	KPC+OXA	1	503
+ST258	KL40	Untypeable	OL2α.2	Typeable	KPC	1	503

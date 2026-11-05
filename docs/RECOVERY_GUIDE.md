@@ -10,11 +10,11 @@ Inside Ubuntu, locate existing full tables without changing files:
 find "$HOME/klebsiella_project" -type f \( -name '*klebsiella_pneumo_complex_output.txt' -o -name '*hAMRonization_output.txt' \) -print
 ```
 
-For M_K5, rebuild a new ZIP from the original complete result directory and test it with `unzip -t`. Renaming or reuploading the same damaged ZIP is not a repair. Preserve old and new archives under different names. For 610, recover both full tables; for 548, recover detailed hAMRonization and the unresolved input outcome.
+For M_K5, rebuild a new ZIP from the original complete result directory and test it with `unzip -t`. Renaming or reuploading the same damaged ZIP is not a repair. Preserve old and new archives under different names. The [5 November update](../audits/2026-11-05_updated_610_548/) documents complete main and detailed tables for 610 and 548, and recovery of the missing 548 main result.
 
 ## Failed FASTA inputs
 
-The supplied lists identify P34/A_K1 (52), P20/A_K3 (1), P33/A_1716 (3), and P14/548 (1). These 57 cases have technical errors, not confirmed taxonomic exclusion. Original paths may contain spaces or parentheses. First locate the original run directory containing its unzipped/ folder.
+The historical lists contain 57 named cases. The current recovery queue covers P34/A_K1 (52), P20/A_K3 (1), and P33/A_1716 (3). P14/548 is resolved. Use the [current ledger](../audits/2026-11-05_updated_610_548/technical_input_status.tsv) to select inputs. Original paths may contain spaces or parentheses. First locate the original run directory containing its unzipped/ folder.
 
 Run the staging script separately for each package, using the actual original project directory and a NEW safe destination:
 

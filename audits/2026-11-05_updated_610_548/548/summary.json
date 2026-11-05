@@ -1,0 +1,128 @@
+{
+  "label": "548",
+  "pds": "PDS000041740.207",
+  "source_archive": "548_PDS000041740.207_F_run_20261104_212002_RvReFw_FINAL_kleborate_results.zip",
+  "source_sha256": "cddb0889eb1f1787ea2d76404024da73c4b38a729c70d69aee0ef8ab8a579723",
+  "reference_manifest_sha256": "cea0dc02108ccdc6f6a56b76ae7e0b3d340e3dbc2e7338e8677cf48178e1d4a3",
+  "historical_main_sha256": "b81b9b38873db636db8210c78c675d05c12d275b988f760daaa654497df6cf5a",
+  "source_crc_verified": true,
+  "staged_unique_accessions": 430,
+  "reference_inputs": 430,
+  "source_archive_entries": 432,
+  "genome_archive_entries": 431,
+  "archive_without_genome_basename": [
+    "PDS000041740_207_548_FINAL_kleborate_results.zip"
+  ],
+  "input_fasta_paths": 431,
+  "duplicate_input_accession": "GCA_054407865.1",
+  "reported_input_sha256_count": 430,
+  "raw_fasta_bytes_in_result_archive": false,
+  "excluded_accessions": [],
+  "final_members": {
+    "main": "final/klebsiella_pneumo_complex_output.txt",
+    "hamronization": "final/klebsiella_pneumo_complex_hAMRonization_output.txt"
+  },
+  "main_rows": 430,
+  "main_source_columns": 117,
+  "hamr_source_columns": 32,
+  "hamr_rows": 9652,
+  "hamr_exact_unique_rows": 6430,
+  "hamr_covered_accessions": 430,
+  "raw_and_final_batch_data_rows_byte_identical": true,
+  "batches": [
+    {
+      "batch": "batch_001",
+      "inputs": 100,
+      "main_rows": 100,
+      "hamr_rows": 2663
+    },
+    {
+      "batch": "batch_002",
+      "inputs": 100,
+      "main_rows": 100,
+      "hamr_rows": 2296
+    },
+    {
+      "batch": "batch_003",
+      "inputs": 100,
+      "main_rows": 100,
+      "hamr_rows": 2208
+    },
+    {
+      "batch": "batch_004",
+      "inputs": 100,
+      "main_rows": 100,
+      "hamr_rows": 1945
+    },
+    {
+      "batch": "batch_005",
+      "inputs": 30,
+      "main_rows": 30,
+      "hamr_rows": 540
+    }
+  ],
+  "batch_log_nonidentifier_values_verified": 3010,
+  "historical_overlap_accessions": 429,
+  "historical_main_nonidentifier_fields_compared": 116,
+  "historical_strain_label_note": "New strain values are versioned accessions; the historical strain labels include the assembly name. Comparisons use the versioned accession.",
+  "historical_order_only_changed_fields": {
+    "K_Missing_expected_genes": 31,
+    "O_Missing_expected_genes": 4
+  },
+  "historical_order_only_affected_accessions": 34,
+  "other_historical_profile_differences": 0,
+  "restored_accession": "GCA_054407865.1",
+  "restored_main_profile": {
+    "species": "Klebsiella pneumoniae",
+    "ST": "ST307",
+    "K_locus": "KL102",
+    "K_locus_confidence": "Typeable",
+    "O_locus": "OL2α.2",
+    "O_type": "O2β",
+    "O_locus_confidence": "Typeable",
+    "Bla_Carb_acquired": "-",
+    "Bla_ESBL_acquired": "CTX-M-15;CTX-M-15",
+    "resistance_score": "1",
+    "virulence_score": "0",
+    "Yersiniabactin": "-",
+    "Colibactin": "-",
+    "Aerobactin": "-",
+    "Salmochelin": "-",
+    "RmpADC": "-",
+    "rmpA2": "-",
+    "num_resistance_classes": "7",
+    "num_resistance_genes": "20",
+    "QC_warnings": "-"
+  },
+  "restored_hamr_rows": 24,
+  "restored_hamr_exact_unique_rows": 13,
+  "hAMRonization_software_database_fields": [
+    {
+      "software": "Kleborate",
+      "version": "3.2.4",
+      "database": "CARD",
+      "database_version": "3.2.9"
+    }
+  ],
+  "reported_ST_counts": {
+    "ST307": 423,
+    "ST5186": 2,
+    "ST3227": 1,
+    "ST307-1LV": 2,
+    "ST4335": 2
+  },
+  "QC_warnings": {
+    "-": 406,
+    "ambiguous_bases": 24
+  },
+  "K_locus_confidence": {
+    "Typeable": 422,
+    "Untypeable": 8
+  },
+  "O_locus_confidence": {
+    "Typeable": 428,
+    "Untypeable": 2
+  },
+  "descriptive_nonempty_Bla_Carb_acquired": 194,
+  "manifest_scope": "Within-archive/Baseline membership is validated. The independent NCBI metadata/PDT/tree linkage remains separate."
+}

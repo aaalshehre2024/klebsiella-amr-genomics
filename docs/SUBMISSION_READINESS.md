@@ -6,11 +6,11 @@ Engineering/audit preparation is not scientific approval.
 |---|---|---|
 | All 34 upload events hashed and duplicate reuploads identified | COMPLETE | upload_registry.csv and manifest |
 | Selected output tables and overlaps audited | COMPLETE | Combined audit and working tables |
-| Reproducible audit code and local tests | COMPLETE | 13 synthetic tests, TEST_REPORT.txt |
+| Reproducible audit code and local tests | COMPLETE | 13 existing intake and recovery tests plus three checks of the 5 November public data; run python scripts/test_project.py |
 | GitHub-hosted test execution | CHECK ACTIONS | Workflow result for exact commit; do not infer from local tests |
 | Corrupt M_K5 result archive | BLOCKED | Newly tested readable archive/full tables |
-| 57 named technical unresolved inputs | BLOCKED | Safe-path reruns or individually justified outcomes |
-| 610 and 548 source selection | RESTRICTED BY SOURCE | Use the [selected ZIPs](../audits/2026-11-03_selected_610_548/README.md). 610 supplies eight log fields for 503 assemblies. 548 supplies full main results for 429 of 430. Both lack detailed hAMRonization tables. |
+| Original 57 named technical cases | 1 RESOLVED, 56 OPEN | 548 is resolved. Reconcile A_K1 (52), A_K3 (1) and A_1716 (3). [Accession ledger](../audits/2026-11-05_updated_610_548/technical_input_status.tsv) |
+| 610 and 548 main and detailed AMR | COMPLETE FOR SELECTED INPUTS | [Updated profiles](../audits/2026-11-05_updated_610_548/). 610 has 503/503 assemblies on both layers and 548 has 430/430. Keep raw and exact-distinct annotation counts separate. |
 | M_K1 three unidentified omissions / M_K2 upstream ZIP | REVIEW | Named input manifest and archive decision |
 | Snapshot .7 versus .12 reconciliation | BLOCKED | Final version rule; no double counting |
 | Extended collection identities and tree mapping | BLOCKED | Frozen metadata and accession–PDT–PDS–tree crosswalk |

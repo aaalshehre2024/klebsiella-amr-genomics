@@ -4,20 +4,18 @@ Audit-first research workspace for a database-derived *Klebsiella pneumoniae* st
 
 **Status: development / cohort reconciliation. Not a publication-ready dataset or accepted paper.**
 
-## Selected sources for 610 and 548
+## Current research profiles for 610 and 548
 
-Browse the checked assembly tables, manifests and workbook downloads in the [610 data folder](audits/2026-11-03_selected_610_548/610/) and the [548 data folder](audits/2026-11-03_selected_610_548/548/).
+The 5 November 2026 source update supplies a full 117-field Kleborate profile and detailed 32-field hAMRonization annotations for every listed assembly in both collections.
 
-On 3 November 2026 the study author selected one result ZIP for each of these two collections. Use each independently for research. The counts refer to versioned assembly accessions in that ZIP's own FASTA list.
+| Collection | Main coverage | Assemblies with detailed AMR | Raw / exact-distinct AMR rows | Browse |
+|---|---:|---:|---:|---|
+| 610 · PDS000052355.137 | 503/503 | 503/503 | 13,826 / 8,939 | [Assembly profiles](audits/2026-11-05_updated_610_548/610/) · [AMR records](audits/2026-11-05_updated_610_548/610/browse_amr/) |
+| 548 · PDS000041740.207 | 430/430 | 430/430 | 9,652 / 6,430 | [Assembly profiles](audits/2026-11-05_updated_610_548/548/) · [AMR records](audits/2026-11-05_updated_610_548/548/browse_amr/) |
 
-| Package label | Listed assemblies | Records available for analysis | Detailed hAMRonization table |
-|---|---:|---|---|
-| 610 (PDS000052355.137) | 503 | 503 eight-field batch-log records. Use the reported species, N50, ST, scores and counts. The selected ZIP lacks a full main table. | Unavailable |
-| 548 (PDS000041740.207) | 430 | 429 full main-table records. The five logs corroborate the same records. One input, GCA_054407865.1, has an unresolved technical failure. | Unavailable |
+The 548 rerun resolves `GCA_054407865.1` (ST307, 24 raw AMR records). The [updated audit](audits/2026-11-05_updated_610_548/), [source checksums](audits/2026-11-05_updated_610_548/source_register.tsv), and [remaining manuscript decisions](audits/2026-11-05_updated_610_548/PAPER_READINESS.md) document the current selection. Both output tables in each collection report genomic annotations. Exact assembly accessions, quality flags and repeat records are retained.
 
-Use the selected 610 logs for analyses of the fields they contain. Restrict named AMR determinants and K/O and virulence locus analyses to sources that actually report those fields. For 548, apply the relevant typing-confidence and QC rules to its full table.
-
-The [source register](audits/2026-11-03_selected_610_548/source_register.tsv) identifies the selected files by SHA-256. The [research-use notes](audits/2026-11-03_selected_610_548/README.md) give the evidence available for each analysis. The [2 November recovery audit](audits/2026-11-02_recovery_610_548/RECOVERY_REPORT.md) and [combined intake audit](audits/2026-11-02_combined/AUDIT_REPORT.md) describe earlier source selections. Their pooled totals do not carry forward to this selection. Study-wide denominators require separate reconciliation. See [submission readiness](docs/SUBMISSION_READINESS.md).
+The [3 November audit](audits/2026-11-03_selected_610_548/), the [2 November recovery amendment](audits/2026-11-02_recovery_610_548/RECOVERY_REPORT.md) and the [combined intake audit](audits/2026-11-02_combined/AUDIT_REPORT.md) remain available for historical comparisons. Their study-wide counts refer to their respective source selections.
 
 ## Reproduce the original intake audit locally
 

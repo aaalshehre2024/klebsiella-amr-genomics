@@ -1,5 +1,7 @@
 # Collection 548 · PDS000041740.207
 
+**Historical source selection of 3 November.** The [updated 5 November profiles](../../2026-11-05_updated_610_548/548/) contain full main and detailed AMR outputs for all selected inputs. The counts below describe the original files in this folder.
+
 Of **430 listed assemblies**, **429** have a full main-table record. Use the main table for the reported AMR markers, virulence loci and K/O typing, retaining the QC and confidence fields when selecting assemblies. The five batch logs corroborate the same 429 records. The selected ZIP lacks detailed hAMRonization output.
 
 The input manifest retains `GCA_054407865.1` as technically unresolved. It appears twice in the raw FASTA paths and once in the unique input list. Its batch log records a shell syntax error before the species-check failure.
