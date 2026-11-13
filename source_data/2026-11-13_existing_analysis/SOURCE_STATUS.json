@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "imported_utc": "2026-11-13T21:00:30.161918+00:00",
+  "source_files": 77,
+  "category_counts": {
+    "candidate_current_tsv": 17,
+    "candidate_newick": 22,
+    "native_result_txt": 4,
+    "publication_setup_zip": 1,
+    "result_bundle_zip": 30,
+    "analysis_starter_zip": 1,
+    "historical_csv": 1,
+    "additional_draft_tsv": 1
+  },
+  "inventory_report_sha256": "7a88a4cb9ec8f9c30ea2ce765a065f2ca3672b5b7d86b0e6c0e44fba5b29aef2",
+  "zip_warnings": 1,
+  "scientific_reproduction": "NOT_RUN",
+  "manuscript_quantities_validated": false
+}

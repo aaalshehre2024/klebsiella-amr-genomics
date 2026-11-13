@@ -1,0 +1,29 @@
+name: Source data integrity
+
+on:
+  push:
+    paths:
+      - 'source_data/2026-11-13_existing_analysis/**'
+      - 'scripts/publication/collect_existing_sources.py'
+      - '.github/workflows/source-data-integrity.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-integrity:
+    name: Verify imported source files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Verify source bytes and metadata
+        run: >-
+          python scripts/publication/collect_existing_sources.py verify
+          --destination source_data/2026-11-13_existing_analysis

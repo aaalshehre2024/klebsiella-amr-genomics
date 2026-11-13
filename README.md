@@ -43,3 +43,14 @@ The checked tables for the selected 610 and 548 sources are available in the aud
 ## Citation and permissions
 
 CITATION.cff describes this development repository, not a published article. Licensing, contributor approval and a version-specific repository DOI remain author decisions. Public visibility is not a declaration that third-party data can be relicensed. See docs/LICENSING_STATUS.md.
+
+## Existing source data: 13 November 2026 inventory
+
+The [inventoried source snapshot](source_data/2026-11-13_existing_analysis/README.md)
+preserves 77 source files, including 17 candidate current TSV exports,
+saved result archives, and candidate tree files. Original relative paths,
+SHA-256 hashes, file sizes, and archive-integrity findings are recorded.
+
+This source import supports inspection and subsequent analysis. Scientific
+reproduction and current manuscript quantities remain unverified. See the
+snapshot's SOURCE_STATUS.json and ZIP_INTEGRITY.csv for the validation scope.
