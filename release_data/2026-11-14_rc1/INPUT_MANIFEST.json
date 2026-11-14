@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "archive": {
+    "name": "Kp_Updated_Results_Evidence_2026-11-08.zip",
+    "size_bytes": 16970397,
+    "sha256": "52020b53cf3de9074a4409267a18d13212bb994aafd0045378a5bd9595f42214",
+    "chunks": [
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0001.bin",
+        "size_bytes": 524288,
+        "sha256": "92a1743ce3e3cfd31f348e2914d364d7f83ede93e00d6312c55ce4439f5c31b1"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0002.bin",
+        "size_bytes": 524288,
+        "sha256": "8339dd21a31b4bf1ce8f29fe460cf218ed946939229923b3d26c2643dca5329a"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0003.bin",
+        "size_bytes": 524288,
+        "sha256": "3c6d0e87979cc464545ea826287ca12b4cdb669d0079814ec29752e714db42d3"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0004.bin",
+        "size_bytes": 524288,
+        "sha256": "0776b8f08bcb3f95f09d2ff9d6e2ccb54c1b519523965eff29d564afe41a96c7"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0005.bin",
+        "size_bytes": 524288,
+        "sha256": "892df8b75150262689d2c1e53e4c806d77939f61ad8ebb2ef28dcba3717fc6e8"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0006.bin",
+        "size_bytes": 524288,
+        "sha256": "663c48e0b70764f3b14984ad32e48152fbbfb734e091eb9eb4c4babd9d464793"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0007.bin",
+        "size_bytes": 524288,
+        "sha256": "89ac8f7553742bc8fca055a28cedace8f64ef8d4f62c2fd5cd317a95962c15a7"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0008.bin",
+        "size_bytes": 524288,
+        "sha256": "e6549ac0d094e8e3ec5fed273022be7a120e66b6a63d63e2c1b7773328221c07"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0009.bin",
+        "size_bytes": 524288,
+        "sha256": "50b69a818801e36bd5d2698ec6349fd50eeb3d42b6f26474b8440eb2ab5ee8f4"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0010.bin",
+        "size_bytes": 524288,
+        "sha256": "82e616e285dbfb7088eda454f762051fc3213d5a8b565da6d9e08a78201a9f56"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0011.bin",
+        "size_bytes": 524288,
+        "sha256": "4d9d1156cc5680be3ef9cf381b11c3c67a3b95a453d369d65796a5220106476c"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0012.bin",
+        "size_bytes": 524288,
+        "sha256": "80ced303a00b8b25d8ea0ba53a25b36cdf79042a0281f3f6a903f00e99d897ee"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0013.bin",
+        "size_bytes": 524288,
+        "sha256": "f47c81c080184a34bbf64fa3dfee10e237ae4847ce1ea36e06fcd7509db86380"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0014.bin",
+        "size_bytes": 524288,
+        "sha256": "8984b3bfa607815856154a5acc3d06a28f00514313af89aa23e9e8c48d4c4207"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0015.bin",
+        "size_bytes": 524288,
+        "sha256": "d296c22dcb2c0c9b7727846eb9129a8bdddad168a056e406abf0b85a7f5c4177"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0016.bin",
+        "size_bytes": 524288,
+        "sha256": "06b9871ac289b93d654515604308d108c2950bbf33caf911b92991960ffc0c8a"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0017.bin",
+        "size_bytes": 524288,
+        "sha256": "41438ce15514dc2d1d07a6c3a3c7e06ae3aaee9210b3cb32f4d677eebe7eccfe"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0018.bin",
+        "size_bytes": 524288,
+        "sha256": "244152c5ae075fa605c425eec3798e13c6cd0e85be93a78c1a57f6af59e4799e"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0019.bin",
+        "size_bytes": 524288,
+        "sha256": "99e59470b5ed9983fb002de4c3e38f1c1ce2b85eca14f80a8ed1704879ad5f97"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0020.bin",
+        "size_bytes": 524288,
+        "sha256": "e9d0ea4ffc46d5f63c9ea1d98dc97ed21d71e4de7b18038cb3455080ade71b75"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0021.bin",
+        "size_bytes": 524288,
+        "sha256": "4a6df094fb59dc84edd710bf514e948b990c5a150c3295ec4105ce81d5365d17"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0022.bin",
+        "size_bytes": 524288,
+        "sha256": "b2a72249e2a95b1a2f591e2c582334e6cf44be1580f9f91ebd444be34b905024"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0023.bin",
+        "size_bytes": 524288,
+        "sha256": "a5d186039496cf8ccfc8e332580aa16f793f04b5a12f65a96b484f3871852954"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0024.bin",
+        "size_bytes": 524288,
+        "sha256": "91b65e6fd25cf6327127fac5e73ecff543f34c5205d1373250226a0628e3c9b8"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0025.bin",
+        "size_bytes": 524288,
+        "sha256": "ec49cffe27ff16a87f089e5abf32008ef6efb4b6c326a9858c483a33a96f7698"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0026.bin",
+        "size_bytes": 524288,
+        "sha256": "f07bc561f9cfad26961e281551ed8ee7deee321e5b6fa0164f5ea3a595382d3c"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0027.bin",
+        "size_bytes": 524288,
+        "sha256": "85e71677bc5a5e57268f0a23c75fad66431ef14975fbe3555ff99a1595535d9c"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0028.bin",
+        "size_bytes": 524288,
+        "sha256": "69a66da0a99c08f3877a2a679ee92b1773673a088fab1dc5c52fe858ba76a23d"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0029.bin",
+        "size_bytes": 524288,
+        "sha256": "f39b60760ea7d122aa82d44a13ab66060f37d9c9a867720324dfc0e082a129cb"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0030.bin",
+        "size_bytes": 524288,
+        "sha256": "97639767425bb79900ca2330bc1b94b008488b7b91af732f537157f61446907b"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0031.bin",
+        "size_bytes": 524288,
+        "sha256": "6fe4bc0cb6a776de27f11e89c383254b5eed60973ce9142b0036519138bfaee2"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0032.bin",
+        "size_bytes": 524288,
+        "sha256": "0531f5de87693cac2a585efced2fc5d1ff2c456cbf85f2b8ff7ff33920a36dbb"
+      },
+      {
+        "path": "release_data/2026-11-14_rc1/chunks/part-0033.bin",
+        "size_bytes": 193181,
+        "sha256": "20c67556d7a1374ef8fdcaf63b385c315e9ded35d078d18e6708a9678f2c4a4c"
+      }
+    ]
+  },
+  "master_archive_name": "Kp_Manuscript_Release_Candidate_2026-11-14.zip"
+}

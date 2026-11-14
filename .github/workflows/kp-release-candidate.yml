@@ -1,0 +1,49 @@
+name: Kp draft release and download verification
+
+on:
+  push:
+    branches:
+      - release/kp-manuscript-2026-11-14-rc1
+    paths:
+      - release_data/2026-11-14_rc1/**
+      - .github/workflows/kp-release-candidate.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kp-release-candidate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  draft-release:
+    if: github.repository == 'aaalshehre2024/klebsiella-amr-genomics' && github.ref == 'refs/heads/release/kp-manuscript-2026-11-14-rc1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the exact candidate commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build, upload draft assets, redownload and verify
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_PROMPT_DISABLED: '1'
+        run: python release_data/2026-11-14_rc1/publish_draft.py --repo-root .
+      - name: Preserve build and verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kp-release-candidate-${{ github.sha }}-${{ github.run_attempt }}
+          path: |
+            release_build/
+            release_download/*.json
+            release_download/*.log
+          if-no-files-found: warn
+          retention-days: 30

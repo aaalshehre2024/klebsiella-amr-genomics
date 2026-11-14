@@ -1,0 +1,125 @@
+{
+  "source_manuscript_name": "Kn_manuscript_AA.docx",
+  "source_manuscript_sha256": "c6e718b56ba7bfd8c52eca1d7e49aca981cadef26895f26a32bcc4009acaae47",
+  "image": {
+    "source_docx_internal_path": "word/media/image2.jpeg",
+    "relationship_id": "rId9",
+    "method": "Exact unchanged ZIP member extraction",
+    "size_bytes": 1405239,
+    "sha256": "ba44bdf9dad207533a3d762efd1c891bd2ddc18a5da58d7e4065b1823ccd3f82",
+    "width_pixels": 6245,
+    "height_pixels": 2724
+  },
+  "source_crosscheck": {
+    "status": "PASS_LIMITED_CROSSCHECK",
+    "method": "Compared displayed four-panel values to archived tables and independently parsed the focal TSV for panel C. This is narrower than rerunning the full analysis.",
+    "panel_a": [
+      {
+        "collection": "PDS000040355.84",
+        "co_positive": 319,
+        "total": 492
+      },
+      {
+        "collection": "PDS000046910.132",
+        "co_positive": 10,
+        "total": 506
+      },
+      {
+        "collection": "PDS000052089.303",
+        "co_positive": 4,
+        "total": 834
+      },
+      {
+        "collection": "PDS000060581.92",
+        "co_positive": 3,
+        "total": 419
+      },
+      {
+        "collection": "PDS000267523.25",
+        "co_positive": 16,
+        "total": 1275
+      }
+    ],
+    "panel_b": [
+      {
+        "NDM": "blaNDM",
+        "OXA": "blaOXA-181",
+        "records": 5
+      },
+      {
+        "NDM": "blaNDM-1",
+        "OXA": "blaOXA-181",
+        "records": 1
+      },
+      {
+        "NDM": "blaNDM-1;blaNDM-4",
+        "OXA": "blaOXA-181",
+        "records": 2
+      },
+      {
+        "NDM": "blaNDM-4",
+        "OXA": "blaOXA-181",
+        "records": 306
+      },
+      {
+        "NDM": "blaNDM-4",
+        "OXA": "blaOXA-48",
+        "records": 3
+      }
+    ],
+    "panel_c": {
+      "denominator": 306,
+      "complete_marker_counts": {
+        "rmtB1": 306,
+        "blaCTX-M-15": 266,
+        "blaOXA-23": 2
+      },
+      "oxa23_pdts": [
+        "PDT000746365.1",
+        "PDT000746819.1"
+      ]
+    },
+    "panel_d": [
+      {
+        "pdt": "PDT002808658.1",
+        "assembly": "GCA_059218415.1",
+        "native_ST": "ST16",
+        "native_K_locus": "KL51",
+        "native_O_locus": "OL3γ"
+      },
+      {
+        "pdt": "PDT002808970.1",
+        "assembly": "GCA_059215615.1",
+        "native_ST": "ST16",
+        "native_K_locus": "KL51",
+        "native_O_locus": "OL3γ"
+      }
+    ],
+    "linked_context": {
+      "linked_focal_copositive": 99,
+      "total_focal_copositive": 319,
+      "all_linked_ST": "ST16",
+      "all_linked_K": "KL51",
+      "all_linked_O": "OL3γ",
+      "linked_dominant_subgroup": 88,
+      "dominant_subgroup_total": 306
+    },
+    "sources": {
+      "A": [
+        "Tables/current/collection_summary.csv"
+      ],
+      "B": [
+        "Tables/current/allele_combination_markers.csv"
+      ],
+      "C": [
+        "Tables/current/allele_combination_markers.csv",
+        "Inputs/current/Klebsiella_492 isolates_PDS000040355.84.tsv"
+      ],
+      "D": [
+        "Tables/linkage/new_PDT_to_native_assembly_links.csv",
+        "Inputs/current/Klebsiella_492 isolates_PDS000040355.84.tsv"
+      ]
+    }
+  },
+  "remaining_gap": "The exact displayed JPEG is recoverable and its main panel values match the inspected sources. A dedicated regenerating script for the latest four-panel layout is absent from the two inspected archives; pixel-level re-creation has not been performed."
+}
