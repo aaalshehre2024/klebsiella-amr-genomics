@@ -1,0 +1,364 @@
+{
+  "status": "passed",
+  "figures_requested": true,
+  "steps": [
+    {
+      "name": "current_exports",
+      "returncode": 0,
+      "log": "Logs/current_exports.log"
+    },
+    {
+      "name": "snapshot_linkage",
+      "returncode": 0,
+      "log": "Logs/snapshot_linkage.log"
+    },
+    {
+      "name": "annotation_disagreements",
+      "returncode": 0,
+      "log": "Logs/annotation_disagreements.log"
+    },
+    {
+      "name": "linked_markers",
+      "returncode": 0,
+      "log": "Logs/linked_markers.log"
+    },
+    {
+      "name": "main_figures",
+      "returncode": 0,
+      "log": "Logs/main_figures.log"
+    },
+    {
+      "name": "retained_tree_figures",
+      "returncode": 0,
+      "log": "Logs/retained_tree_figures.log"
+    }
+  ],
+  "numeric_comparisons": [
+    {
+      "file": "Tables/current/AST_submitted_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "aea0a515f5c99e4263cfdc648ffd37d22ef2c4a166131ba5218c15ac228cb332",
+      "reproduced_sha256": "aea0a515f5c99e4263cfdc648ffd37d22ef2c4a166131ba5218c15ac228cb332"
+    },
+    {
+      "file": "Tables/current/AST_submitted_records.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "c1cba2d2e314b8be3f7cf3421e689b1376cce064df974fda6bab94f500b34c41",
+      "reproduced_sha256": "c1cba2d2e314b8be3f7cf3421e689b1376cce064df974fda6bab94f500b34c41"
+    },
+    {
+      "file": "Tables/current/allele_combination_markers.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "c561041c3067c921ea6258b4cb8dba812fadd596ce204ec9b28a7c4ad4f99c9c",
+      "reproduced_sha256": "c561041c3067c921ea6258b4cb8dba812fadd596ce204ec9b28a7c4ad4f99c9c"
+    },
+    {
+      "file": "Tables/current/collection_summary.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "702ee152a97b1b11c9848a76319d00f3f84412885b51028a5b1c26abb8158331",
+      "reproduced_sha256": "702ee152a97b1b11c9848a76319d00f3f84412885b51028a5b1c26abb8158331"
+    },
+    {
+      "file": "Tables/current/copositive_ST_profile_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "5274deab013d4dcbe311a8d054071149f9a7398ca551acf971a367dc80a76862",
+      "reproduced_sha256": "5274deab013d4dcbe311a8d054071149f9a7398ca551acf971a367dc80a76862"
+    },
+    {
+      "file": "Tables/current/gene_status_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "5544ad010c11be0e8669bd2ad7277c1de5d42cea4617ccc5b15f28711aab51d9",
+      "reproduced_sha256": "5544ad010c11be0e8669bd2ad7277c1de5d42cea4617ccc5b15f28711aab51d9"
+    },
+    {
+      "file": "Tables/current/input_inventory.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "a7b904c9fa65670ec052cda619582cd567d419ac838da80d827c2e482eac4c58",
+      "reproduced_sha256": "a7b904c9fa65670ec052cda619582cd567d419ac838da80d827c2e482eac4c58"
+    },
+    {
+      "file": "Tables/current/isolate_features.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "98f1f44128976656654681e9d5bf2241bf5d2740b188f0746b65342c95be552f",
+      "reproduced_sha256": "98f1f44128976656654681e9d5bf2241bf5d2740b188f0746b65342c95be552f"
+    },
+    {
+      "file": "Tables/current/linked_ST_marker_summary.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "25e8a4ce0af55b4eaa9f33611cee0701d240619cb18405561076023f4da17c00",
+      "reproduced_sha256": "25e8a4ce0af55b4eaa9f33611cee0701d240619cb18405561076023f4da17c00"
+    },
+    {
+      "file": "Tables/current/linked_isolate_features.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "67feaeea08b2068e40fd440761abdc96a62be6b7c0ef6e02439447110e502371",
+      "reproduced_sha256": "67feaeea08b2068e40fd440761abdc96a62be6b7c0ef6e02439447110e502371"
+    },
+    {
+      "file": "Tables/current/linked_joint_type_marker_summary.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "6f11c478d9aaff1d3549c7f21edc1e47a532945d99558de1451aa0e824f4c7ea",
+      "reproduced_sha256": "6f11c478d9aaff1d3549c7f21edc1e47a532945d99558de1451aa0e824f4c7ea"
+    },
+    {
+      "file": "Tables/current/linked_joint_type_provenance_strata.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "47f28b3bf13a69d2b57998770dff9145ee922313db68c83933a3bfaf38379052",
+      "reproduced_sha256": "47f28b3bf13a69d2b57998770dff9145ee922313db68c83933a3bfaf38379052"
+    },
+    {
+      "file": "Tables/current/marker_summary_by_analysis_type.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "850aa92a8f5bdebacbd9f63526818ed9a4fc40c5072b8096b1b9072616624559",
+      "reproduced_sha256": "850aa92a8f5bdebacbd9f63526818ed9a4fc40c5072b8096b1b9072616624559"
+    },
+    {
+      "file": "Tables/current/marker_summary_by_catalog.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "87fe95b900d6ce97a95c5942e34b864fed4d943050654c04150bc287463ba6d3",
+      "reproduced_sha256": "87fe95b900d6ce97a95c5942e34b864fed4d943050654c04150bc287463ba6d3"
+    },
+    {
+      "file": "Tables/current/metadata_value_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "2b6e001750efda3298ae7f310896b0bfbd9d6e6ac8be8686cc35ffbfe9c22a6b",
+      "reproduced_sha256": "2b6e001750efda3298ae7f310896b0bfbd9d6e6ac8be8686cc35ffbfe9c22a6b"
+    },
+    {
+      "file": "Tables/current/profile_sensitivity.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "76306af97184a1625ee3fac9998f5f072acf092ae3decf755992a1fc0bb84444",
+      "reproduced_sha256": "76306af97184a1625ee3fac9998f5f072acf092ae3decf755992a1fc0bb84444"
+    },
+    {
+      "file": "Tables/current/provenance_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "2c3fcfa209f04b42ce5de963a3592fe0a9cac12aaabf36c7000fd7b8be93c133",
+      "reproduced_sha256": "2c3fcfa209f04b42ce5de963a3592fe0a9cac12aaabf36c7000fd7b8be93c133"
+    },
+    {
+      "file": "Tables/current/repeated_BioSamples.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "47d75570f5e23867ebe9c273d699878d2eda6cd31f5a07190b7e7a5f298c375f",
+      "reproduced_sha256": "47d75570f5e23867ebe9c273d699878d2eda6cd31f5a07190b7e7a5f298c375f"
+    },
+    {
+      "file": "Tables/current/sensitivity_records.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "4876a939b9092e5831076371a05f618d7d4289a8adb28b8e4c6413cd87a70dfc",
+      "reproduced_sha256": "4876a939b9092e5831076371a05f618d7d4289a8adb28b8e4c6413cd87a70dfc"
+    },
+    {
+      "file": "Tables/linkage/candidate_tree_metadata_unmatched.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "62c4de0f296af555545a266b00dabe66c4bea809d862e7ccc10fedd5e22dc078",
+      "reproduced_sha256": "62c4de0f296af555545a266b00dabe66c4bea809d862e7ccc10fedd5e22dc078"
+    },
+    {
+      "file": "Tables/linkage/candidate_tree_new_metadata_links.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "954f7febd93d1c23f5660ff8154fb78f2ea9b7f257b45c1fb45000d7cc4bc858",
+      "reproduced_sha256": "954f7febd93d1c23f5660ff8154fb78f2ea9b7f257b45c1fb45000d7cc4bc858"
+    },
+    {
+      "file": "Tables/linkage/candidate_tree_register.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "57693995034688c63a84c4245aa59c8f5fc88dc84dab7261251cac2df77b2a1b",
+      "reproduced_sha256": "57693995034688c63a84c4245aa59c8f5fc88dc84dab7261251cac2df77b2a1b"
+    },
+    {
+      "file": "Tables/linkage/candidate_tree_vs_new_metadata.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "135746ab372155681bd94355af68601d9d69e6ac5740ae5b37807f3f639fc1b6",
+      "reproduced_sha256": "135746ab372155681bd94355af68601d9d69e6ac5740ae5b37807f3f639fc1b6"
+    },
+    {
+      "file": "Tables/linkage/historical_verified_trees_vs_new_metadata.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "4f87a673241eb924c331d1d6e3bdf8ad93d6750a58ed545e4e7a36166268abc3",
+      "reproduced_sha256": "4f87a673241eb924c331d1d6e3bdf8ad93d6750a58ed545e4e7a36166268abc3"
+    },
+    {
+      "file": "Tables/linkage/matched_native_NCBI_profile_disagreements.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "7905727160045f3c2f20773696976bd7e74b27784b27d9916fc4de10089bf05c",
+      "reproduced_sha256": "7905727160045f3c2f20773696976bd7e74b27784b27d9916fc4de10089bf05c"
+    },
+    {
+      "file": "Tables/linkage/matched_profile_disagreement_breakdown.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "ac3d0da6b004409c895c29a299c3c0d047ac0224a92c4bcdf016f856c51465f9",
+      "reproduced_sha256": "ac3d0da6b004409c895c29a299c3c0d047ac0224a92c4bcdf016f856c51465f9"
+    },
+    {
+      "file": "Tables/linkage/matched_profile_disagreement_strata.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "ba15ad42ad88462f56c3dc7364ebd5a9519c8b64b59cd3a5acbb60ab4309a796",
+      "reproduced_sha256": "ba15ad42ad88462f56c3dc7364ebd5a9519c8b64b59cd3a5acbb60ab4309a796"
+    },
+    {
+      "file": "Tables/linkage/metadata_register.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "2765e65d055dbb64b3cc89444b5d9719de6a5ac61133e92eb7da31ca03eb3d00",
+      "reproduced_sha256": "2765e65d055dbb64b3cc89444b5d9719de6a5ac61133e92eb7da31ca03eb3d00"
+    },
+    {
+      "file": "Tables/linkage/new_NCBI_native_target_profile_cross_table.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "02675fed02a5e5a0f8fd2adb998e5cb21733b16d7edcbcd1538e9ece72ca7774",
+      "reproduced_sha256": "02675fed02a5e5a0f8fd2adb998e5cb21733b16d7edcbcd1538e9ece72ca7774"
+    },
+    {
+      "file": "Tables/linkage/new_PDT_to_native_assembly_links.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "0c9620674b3ec4771263f0a230b77a0d36f557b3ec38c873b79f48d7dfd02eaa",
+      "reproduced_sha256": "0c9620674b3ec4771263f0a230b77a0d36f557b3ec38c873b79f48d7dfd02eaa"
+    },
+    {
+      "file": "Tables/linkage/new_linked_ST_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "d068cf39e5916eca27ba86d5fb6394f53f8b6a0ed601a5b4c2fb366c627ac1d9",
+      "reproduced_sha256": "d068cf39e5916eca27ba86d5fb6394f53f8b6a0ed601a5b4c2fb366c627ac1d9"
+    },
+    {
+      "file": "Tables/linkage/new_metadata_repeated_assembly_labels.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "2350b85946b4569781d261495bc5b3a7b576a2d1e5f8206c7188686542c1fcc0",
+      "reproduced_sha256": "2350b85946b4569781d261495bc5b3a7b576a2d1e5f8206c7188686542c1fcc0"
+    },
+    {
+      "file": "Tables/linkage/new_native_assembly_link_summary.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "c80b8e71e52bbe64a349d0d533ae147f1e5f77baa78785fd5757b16b5d55162f",
+      "reproduced_sha256": "c80b8e71e52bbe64a349d0d533ae147f1e5f77baa78785fd5757b16b5d55162f"
+    },
+    {
+      "file": "Tables/linkage/old_new_exact_PDT_crosswalk.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "d106dad1c776c1359c32b740b51a0e441a1675ac40c03736386ee3e9b6facc73",
+      "reproduced_sha256": "d106dad1c776c1359c32b740b51a0e441a1675ac40c03736386ee3e9b6facc73"
+    },
+    {
+      "file": "Tables/linkage/old_new_matched_summary.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "2859a7cf5bcc0dd99705ab350e2f0997cee62d9aef2dbec9c76a76eb5c5ca5a3",
+      "reproduced_sha256": "2859a7cf5bcc0dd99705ab350e2f0997cee62d9aef2dbec9c76a76eb5c5ca5a3"
+    },
+    {
+      "file": "Tables/linkage/old_new_overlap_matrix.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "501939bea86c3781891f886c87cc401982688b99ae9958e4c726780bc8a31a9c",
+      "reproduced_sha256": "501939bea86c3781891f886c87cc401982688b99ae9958e4c726780bc8a31a9c"
+    },
+    {
+      "file": "Tables/linkage/old_new_profile_changes.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "ccd68d1c7bb2418213634e8ae6207d6595178b049dcdbe4ec5ecbbf6e5f05a9a",
+      "reproduced_sha256": "ccd68d1c7bb2418213634e8ae6207d6595178b049dcdbe4ec5ecbbf6e5f05a9a"
+    },
+    {
+      "file": "Tables/linkage/same_cluster_snapshot_overlaps.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "dc3cd925a22ae913a6a8025024fbaa5d523c77791a182a21cd18079b2e337f6e",
+      "reproduced_sha256": "dc3cd925a22ae913a6a8025024fbaa5d523c77791a182a21cd18079b2e337f6e"
+    },
+    {
+      "file": "Tables/current/summary.json",
+      "comparison": "parsed JSON equality",
+      "matched": true,
+      "expected_sha256": "03e60671467281606b8aedc334bf43e48ccd13693cb441a69a0e2ae2aa2d4fe6",
+      "reproduced_sha256": "03e60671467281606b8aedc334bf43e48ccd13693cb441a69a0e2ae2aa2d4fe6"
+    },
+    {
+      "file": "Tables/current/linked_marker_summary.json",
+      "comparison": "parsed JSON equality",
+      "matched": true,
+      "expected_sha256": "669eed151b31113955ec9e695b538f62f286e0bc7c1bb0b09bf9ba6449c1260a",
+      "reproduced_sha256": "669eed151b31113955ec9e695b538f62f286e0bc7c1bb0b09bf9ba6449c1260a"
+    },
+    {
+      "file": "Tables/linkage/summary.json",
+      "comparison": "parsed JSON equality",
+      "matched": true,
+      "expected_sha256": "a30e11dc3353835590f28e46182cfacf04469a9900fbf11c4c7d0c90daf6615c",
+      "reproduced_sha256": "a30e11dc3353835590f28e46182cfacf04469a9900fbf11c4c7d0c90daf6615c"
+    },
+    {
+      "file": "Tables/linkage/profile_disagreements_summary.json",
+      "comparison": "parsed JSON equality",
+      "matched": true,
+      "expected_sha256": "509d1ff77834a424f99ff0792c4547d8178c8516e8f359de9470330f9e9872f2",
+      "reproduced_sha256": "509d1ff77834a424f99ff0792c4547d8178c8516e8f359de9470330f9e9872f2"
+    }
+  ],
+  "figure_source_comparisons": [
+    {
+      "file": "Figures/main/Figure_2_source_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "38f9d14d3cc357a4df824e5aea02b1dcd11167f02e7dfd53f040fe993686462d",
+      "reproduced_sha256": "38f9d14d3cc357a4df824e5aea02b1dcd11167f02e7dfd53f040fe993686462d"
+    },
+    {
+      "file": "Figures/retained_trees/Retained_Tree_Subsets_Current_Annotations_counts.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "c3a45465a077abf19b8fafde616647aba9e495c1abd4fd6670832f33cecc6e0f",
+      "reproduced_sha256": "c3a45465a077abf19b8fafde616647aba9e495c1abd4fd6670832f33cecc6e0f"
+    },
+    {
+      "file": "Figures/retained_trees/Retained_Tree_Subsets_Current_Annotations_inputs.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "3c8c40bfee6935ea58c6ebf684f49cef8387d1560adb46c6e27e4988d66d0330",
+      "reproduced_sha256": "3c8c40bfee6935ea58c6ebf684f49cef8387d1560adb46c6e27e4988d66d0330"
+    },
+    {
+      "file": "Figures/retained_trees/Retained_Tree_Subsets_Current_Annotations_tips.csv",
+      "comparison": "byte-exact CSV",
+      "matched": true,
+      "expected_sha256": "bb2bf71b298b1ea451406d8537d06cc9320c570d78192e5de80aeae0768e68aa",
+      "reproduced_sha256": "bb2bf71b298b1ea451406d8537d06cc9320c570d78192e5de80aeae0768e68aa"
+    }
+  ],
+  "numeric_files_verified": 42,
+  "figure_source_files_verified": 4
+}

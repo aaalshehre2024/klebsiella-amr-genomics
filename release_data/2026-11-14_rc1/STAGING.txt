@@ -1,9 +1,11 @@
 K. pneumoniae release candidate recovery
 
-The evidence archive is being preserved here in ordered binary parts with
-SHA-256 hashes. Reconstruction uses INPUT_MANIFEST.json.
+The complete evidence archive is preserved here in 33 ordered binary parts
+with SHA-256 hashes. Reconstruction uses INPUT_MANIFEST.json.
 
-Release preparation is in progress. A GitHub release and fresh-download
-verification must be completed separately. The current manuscript Figure 1
-is not yet supplied as a reproducible four-panel figure in the evidence
-package. This branch is not a final publication-readiness certification.
+The exact latest Figure 1 image is supplied in latest_figure/ with provenance.
+Its dedicated four-panel layout-generation script remains absent. The local
+candidate passed complete payload and inner archive checks. A GitHub draft
+and fresh-download verification are performed separately by publish_draft.py;
+consult the workflow run and its RELEASE_RECEIPT.json for their actual status.
+This branch is not a final publication-readiness certification.

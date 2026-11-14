@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "RELEASE_CANDIDATE_WITH_DECLARED_LIMITATIONS",
+  "repository": "aaalshehre2024/klebsiella-amr-genomics",
+  "source_snapshot_commit": "ce5c15154cb4eb96a149c0aec0c3ee12f69931ca",
+  "date": "2026-11-14",
+  "manuscript_identity": "manuscript_identity.json",
+  "scope": "Frozen current metadata analysis plus original historical supplementary archive, exact extracted latest Figure 1, version hashes and verification reports.",
+  "source_snapshot_scope": "The separate 77-file source archive retains its original NOT_RUN scientific status and one documented nested-ZIP warning.",
+  "scientific_reproduction_scope": "Fresh rerun of frozen NCBI metadata/assembly-linkage/marker-analysis scripts; 38 CSVs byte-exact, four JSON summaries parsed-equal, four figure-source CSVs byte-exact. No raw sequence assembly, Kleborate or AMRFinderPlus rerun.",
+  "independent_audit_scope": "218 checks against the evidence package Nov 8 Results text; not blanket validation of latest Nov 12 manuscript.",
+  "latest_figure_status": "Exact Figure 1 JPEG recovered from latest DOCX; displayed core values crosschecked. Dedicated script for regenerating the four-panel layout remains absent.",
+  "publication_status": "DRAFT_CANDIDATE; latest manuscripts retain editorial marks and have not been publication-cleaned.",
+  "release_control_commit": "Recorded by GitHub tag and external RELEASE_RECEIPT.json to avoid a self-referential archive hash."
+}
